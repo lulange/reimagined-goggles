@@ -5,6 +5,7 @@ canvas {
   border: none;
 }
 
-body {
+html, body {
+  overflow:hidden;
   margin: 0px;
 }

@@ -1,6 +1,6 @@
 // global variable for canvas object (nice for .width and .height properties)
 const canvas = document.getElementById("canvas");
-
+canvas.height = window.innerHeight;
 
 // for the Game class DO NOT ACCESS DIRECTLY use game.startLoop(); and game.stopLoop(); to start and stop animation looping
 let gameLoopController = {
